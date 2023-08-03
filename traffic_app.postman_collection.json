@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "abfb64aa-602e-4f5b-a7d0-bbc0051274e2",
+		"name": "traffic_app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18167213"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/traffic/dayOfWeekAverageCount?start_date=2023-08-19&end_date=2023-08-20&page=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/traffic/dayOfWeekAverageCount?start_date=2023-08-19&end_date=2023-08-20&page=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"traffic",
+						"dayOfWeekAverageCount"
+					],
+					"query": [
+						{
+							"key": "start_date",
+							"value": "2023-08-19"
+						},
+						{
+							"key": "end_date",
+							"value": "2023-08-20"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
