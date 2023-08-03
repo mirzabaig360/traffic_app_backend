@@ -1,0 +1,11 @@
+/* Custom CSS for cursor pointer on table rows */
+.table-hover tbody tr:hover {
+    cursor: pointer;
+}
+/* Custom CSS for consistent row colors */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa; /* Light gray */
+}
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #ffffff; /* White */
+}
